@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.m520it.gamer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".PlayA"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.m520it.leader.action.GAMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".PlayB"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="600">
+                <action android:name="com.m520it.leader.action.GAMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".PlayC"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="200">
+                <action android:name="com.m520it.leader.action.GAMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".PlayE"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="400">
+                <action android:name="com.m520it.leader.action.GAMER"/>
+            </intent-filter>
+        </receiver>
+        <!--D与E 优先级一样,从上往下执行-->
+        <receiver
+            android:name=".PlayD"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="400">
+                <action android:name="com.m520it.leader.action.GAMER"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

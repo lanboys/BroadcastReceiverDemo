@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day13_01_music/day13_01_music.iml" filepath="$PROJECT_DIR$/day13_01_music/day13_01_music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_02_musicrcevier/day13_02_musicrcevier.iml" filepath="$PROJECT_DIR$/day13_02_musicrcevier/day13_02_musicrcevier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_03_Leader/day13_03_Leader.iml" filepath="$PROJECT_DIR$/day13_03_Leader/day13_03_Leader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_04_Gamer/day13_04_Gamer.iml" filepath="$PROJECT_DIR$/day13_04_Gamer/day13_04_Gamer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_05_广播接收者LongTimeAction/day13_05_广播接收者LongTimeAction.iml" filepath="$PROJECT_DIR$/day13_05_广播接收者LongTimeAction/day13_05_广播接收者LongTimeAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_06_Service/day13_06_Service.iml" filepath="$PROJECT_DIR$/day13_06_Service/day13_06_Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_07_telephoneTap/day13_07_telephoneTap.iml" filepath="$PROJECT_DIR$/day13_07_telephoneTap/day13_07_telephoneTap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_08_ThreadAndService/day13_08_ThreadAndService.iml" filepath="$PROJECT_DIR$/day13_08_ThreadAndService/day13_08_ThreadAndService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_Home/day13_Home.iml" filepath="$PROJECT_DIR$/day13_Home/day13_Home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13_Project_BroadcastReceiver.iml" filepath="$PROJECT_DIR$/day13_Project_BroadcastReceiver.iml" />
+    </modules>
+  </component>
+</project>
